@@ -1,6 +1,6 @@
-package com.maple.dynamic.test.mapper;
+package com.demo.dynamic.test.mapper;
 
-import com.maple.dynamic.test.entity.User;
+import com.demo.dynamic.test.entity.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

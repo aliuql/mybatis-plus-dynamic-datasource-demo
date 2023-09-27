@@ -1,9 +1,9 @@
-package com.maple.dynamic.test2.service.impl;
+package com.demo.dynamic.test2.service.impl;
 
 import com.baomidou.dynamic.datasource.annotation.DS;
-import com.maple.dynamic.test2.entity.Product;
-import com.maple.dynamic.test2.mapper.ProductMapper;
-import com.maple.dynamic.test2.service.IProductService;
+import com.demo.dynamic.test2.entity.Product;
+import com.demo.dynamic.test2.mapper.ProductMapper;
+import com.demo.dynamic.test2.service.IProductService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

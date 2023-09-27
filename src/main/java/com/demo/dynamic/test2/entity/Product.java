@@ -1,15 +1,16 @@
-package com.maple.dynamic.test.entity;
+package com.demo.dynamic.test2.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.io.Serializable;
-import java.time.LocalDateTime;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
 /**
  * <p>
- * 用户表
+ * 商品表
  * </p>
  *
  * @author 笑小枫
@@ -17,7 +18,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class User implements Serializable {
+public class Product implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -28,14 +29,14 @@ public class User implements Serializable {
     private Long id;
 
     /**
-     * 登录名
+     * 名称
      */
-    private String loginName;
+    private String name;
 
     /**
-     * 密码
+     * 备注
      */
-    private String password;
+    private String remark;
 
     /**
      * 创建时间

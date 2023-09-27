@@ -1,7 +1,7 @@
-package com.maple.dynamic.test.service;
+package com.demo.dynamic.test.service;
 
-import com.maple.dynamic.test.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.demo.dynamic.test.entity.User;
 
 /**
  * <p>
