@@ -23,8 +23,8 @@ public class TestController {
 
     @GetMapping("/test")
     public String test() {
-        User user = userService.getById(1);
-        Product product = productService.getById(1);
+        User user = userService.selectById2(1L);
+        Product product = productService.getById(2);
         System.out.println("访问test数据库获取到数据：" + JSON.toJSONString(user));
         System.out.println("访问test2数据库获取到数据：" + JSON.toJSONString(product));
         return "ok";

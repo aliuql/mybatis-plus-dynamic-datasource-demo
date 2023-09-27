@@ -19,3 +19,6 @@ spring:
           url: jdbc:mysql://dusp.mysql:33000/test2?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&autoReconnect=true
           username: youlai
           password: 123456
+
+mybatis-plus:
+  mapper-locations: classpath*:com/demo/dynamic/test/mapper/xml/*.xml,classpath*:com/demo/dynamic/test2/mapper/xml/*.xml

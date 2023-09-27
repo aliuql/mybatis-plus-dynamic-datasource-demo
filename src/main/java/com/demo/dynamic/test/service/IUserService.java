@@ -13,4 +13,5 @@ import com.demo.dynamic.test.entity.User;
  */
 public interface IUserService extends IService<User> {
 
+    User selectById2(Long id);
 }
