@@ -1,6 +1,5 @@
 package com.demo.dynamic.test.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.demo.dynamic.test.entity.User;
 
 /**
@@ -11,7 +10,6 @@ import com.demo.dynamic.test.entity.User;
  * @author 笑小枫
  * @since 2023-08-21
  */
-public interface IUserService extends IService<User> {
-
-    User selectById2(Long id);
+public interface IUserService {
+    User getUserById(Long id);
 }
